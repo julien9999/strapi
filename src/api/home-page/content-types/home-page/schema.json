@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "HomePage"
+    "displayName": "HomePage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,16 @@
       "type": "component",
       "repeatable": true,
       "component": "socials.socials"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
